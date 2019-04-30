@@ -1,5 +1,7 @@
 package com.example.appproject;
 
+import java.util.Locale;
+
 public class lol {
     private String name;
     private String location;
@@ -52,4 +54,15 @@ public class lol {
         String newLocation = location;
         return newLocation;
     }
+
+    public void setCategory (String newCategory) {
+        this.category = newCategory;
+
+    }
+    public String getCategory () {
+        String newCategory = category;
+        return newCategory;
+    }
+
+
 }

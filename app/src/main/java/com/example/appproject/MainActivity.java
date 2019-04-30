@@ -169,6 +169,8 @@ public class MainActivity extends AppCompatActivity {
                     lol n = new lol(a.getString("name"));
                     n.setHeight(a.getInt("size"));
                     n.setLocation(a.getString("location"));
+                    n.setCategory(a.getString("category"));
+
 
                     Log.e("jonte",n.toString());
 
