@@ -4,12 +4,15 @@ public class lol {
     private String name;
     private String location;
     private int height;
+    private String category;
 
 
-    public lol (String inName, String inLocation, int inHeight) {
+    public lol (String inName, String inLocation, String inCategory, int inHeight) {
         name = inName;
         location = inLocation;
         height = inHeight;
+        category = inCategory;
+
     }
 
     public lol (String inName) {
@@ -27,8 +30,8 @@ public class lol {
         str += "\nHar attacktypen ";
         str += location;
         str += "\noch svårighetsgraden ";
-
         str += Integer.toString(height);
+        str += category;
 
         return str;
     }
