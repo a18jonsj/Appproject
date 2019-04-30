@@ -33,6 +33,7 @@ public class lol {
         str += location;
         str += "\noch svårighetsgraden ";
         str += Integer.toString(height);
+        str += "\nTyp av champion: ";
         str += category;
 
         return str;

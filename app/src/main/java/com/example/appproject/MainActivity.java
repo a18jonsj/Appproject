@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        if ( (id==R.id.action_refresh)){
+        if ( (id==R.id.action_about)){
             new FetchData().execute();
             return true;
         }
