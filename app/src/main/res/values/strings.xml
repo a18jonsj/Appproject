@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Appproject</string>
     <string name="action_settings">Settings</string>
+    <string name="action_refresh">Settings</string>
+
+
 </resources>
