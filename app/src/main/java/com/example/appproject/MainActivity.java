@@ -1,5 +1,6 @@
 package com.example.appproject;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -86,10 +87,16 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        if ( (id==R.id.action_about)){
+        if ( (id==R.id.action_refresh)){
             new FetchData().execute();
             return true;
         }
+
+        if ( (id==R.id.action_about)){
+            startAbout();
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -187,6 +194,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+    }
+
+    public void startAbout(){
+        Intent intent = new Intent(this,about.class);
+        startActivity(intent);
+
     }
 }
 
