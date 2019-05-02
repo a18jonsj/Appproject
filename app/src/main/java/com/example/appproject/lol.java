@@ -7,13 +7,15 @@ public class lol {
     private String location;
     private int height;
     private String category;
+    private int cost;
 
 
-    public lol (String inName, String inLocation, String inCategory, int inHeight) {
+    public lol (String inName, String inLocation, String inCategory, int inHeight, int inCost) {
         name = inName;
         location = inLocation;
         height = inHeight;
         category = inCategory;
+        cost = inCost;
 
     }
 
@@ -29,12 +31,14 @@ public class lol {
 
     public String info() {
         String str = name;
-        str += "\nHar attacktypen ";
+        str += "\nAttacktyp: ";
         str += location;
-        str += "\noch svårighetsgraden ";
+        str += "\nSvårighetsgrad: ";
         str += Integer.toString(height);
-        str += "\nTyp av champion: ";
+        str += "\nTyp: ";
         str += category;
+        str += "\nPris: ";
+        str += cost;
 
         return str;
     }
@@ -63,6 +67,14 @@ public class lol {
     public String getCategory () {
         String newCategory = category;
         return newCategory;
+    }
+
+    public void setCost (int newCost){
+        this.cost = newCost;
+    }
+    public String getCost() {
+        String pris=String.valueOf(cost);
+        return pris;
     }
 
 

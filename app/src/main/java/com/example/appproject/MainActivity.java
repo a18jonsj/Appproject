@@ -177,6 +177,7 @@ public class MainActivity extends AppCompatActivity {
                     n.setHeight(a.getInt("size"));
                     n.setLocation(a.getString("location"));
                     n.setCategory(a.getString("category"));
+                    n.setCost(a.getInt("cost"));
 
 
                     Log.e("jonte",n.toString());
