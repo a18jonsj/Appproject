@@ -23,9 +23,18 @@
 
     <item
 
-        android:id="@+id/action_about"
+    android:id="@+id/action_about"
+    android:orderInCategory="10"
+    android:title="About"
+    app:showAsAction="never"
+
+    />
+
+    <item
+
+        android:id="@+id/action_quotes"
         android:orderInCategory="10"
-        android:title="About"
+        android:title="Quotes"
         app:showAsAction="never"
 
         />

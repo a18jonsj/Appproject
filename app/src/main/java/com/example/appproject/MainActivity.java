@@ -97,6 +97,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if ( (id==R.id.action_quotes)){
+            startQuotes();
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -199,6 +204,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void startAbout(){
         Intent intent = new Intent(this,about.class);
+        startActivity(intent);
+
+    }
+
+    public void startQuotes(){
+        Intent intent = new Intent(this,quotes.class);
         startActivity(intent);
 
     }
