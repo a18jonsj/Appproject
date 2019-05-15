@@ -54,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rammus" />
+        app:srcCompat="@drawable/rammus20" />
 
     <TextView
         android:id="@+id/textView7"
@@ -98,7 +98,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="'I am the fire that cleanses the toilet!'\n- Startabrand"
+        android:text="'I am the fire that cleanses the world!'\n- Startabrand"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

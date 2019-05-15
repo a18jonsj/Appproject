@@ -183,6 +183,7 @@ public class MainActivity extends AppCompatActivity {
                     n.setLocation(a.getString("location"));
                     n.setCategory(a.getString("category"));
                     n.setCost(a.getInt("cost"));
+                    n.setCompany(a.getString("company"));
 
 
                     Log.e("jonte",n.toString());

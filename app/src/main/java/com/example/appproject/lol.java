@@ -8,14 +8,17 @@ public class lol {
     private int height;
     private String category;
     private int cost;
+    private String company;
 
 
-    public lol (String inName, String inLocation, String inCategory, int inHeight, int inCost) {
+    public lol (String inName, String inLocation, String inCategory, String inCompany, int inHeight, int inCost) {
         name = inName;
         location = inLocation;
         height = inHeight;
         category = inCategory;
         cost = inCost;
+        company = inCompany;
+
 
     }
 
@@ -39,6 +42,8 @@ public class lol {
         str += category;
         str += "\nPris: ";
         str += cost;
+        str += "\nTyp av DMG: ";
+        str += company;
 
         return str;
     }
@@ -75,6 +80,15 @@ public class lol {
     public String getCost() {
         String pris=String.valueOf(cost);
         return pris;
+    }
+
+    public void setCompany (String newCompany) {
+        this.company = newCompany;
+
+    }
+    public String getCompany () {
+        String newCompany = company;
+        return newCompany;
     }
 
 
