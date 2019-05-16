@@ -83,7 +83,7 @@
                 android:layout_marginTop="33dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="Legendary league är ett mycket komplicerat spel.Därför har vi tagit fram denna app så att du som ny spelare ska få enkel tillgång till vilka karaktärer du kan spela, samt vilken svårighetsgrad dom har och vad dom kostar. Vi önskar dig lycka till på roiften. Kram /Rito."
+                android:text="Legendary league är ett mycket komplicerat spel.Därför har vi tagit fram denna app så att du som ny spelare ska få enkel tillgång till vilka karaktärer du kan spela, samt vilken svårighetsgrad dom har och vad dom kostar. Vi önskar dig lycka till på Roiften.\nRito."
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

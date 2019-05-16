@@ -184,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
                     n.setCategory(a.getString("category"));
                     n.setCost(a.getInt("cost"));
                     n.setCompany(a.getString("company"));
+                    n.setAuxdata(a.getString("auxdata"));
 
 
                     Log.e("jonte",n.toString());

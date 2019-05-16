@@ -9,15 +9,17 @@ public class lol {
     private String category;
     private int cost;
     private String company;
+    private String auxdata;
 
 
-    public lol (String inName, String inLocation, String inCategory, String inCompany, int inHeight, int inCost) {
+    public lol (String inName, String inLocation, String inCategory, String inCompany, String inAuxdata, int inHeight, int inCost) {
         name = inName;
         location = inLocation;
         height = inHeight;
         category = inCategory;
         cost = inCost;
         company = inCompany;
+        auxdata = inAuxdata;
 
 
     }
@@ -44,6 +46,8 @@ public class lol {
         str += cost;
         str += "\nTyp av DMG: ";
         str += company;
+        str += "\nCitat: ";
+        str += auxdata;
 
         return str;
     }
@@ -60,6 +64,15 @@ public class lol {
         this.location = newLocation;
 
     }
+    public String getAuxdata () {
+        String newAuxdata = auxdata;
+        return newAuxdata;
+    }
+
+    public void setAuxdata (String newAuxdata) {
+        this.auxdata = newAuxdata;
+
+    }
     public String getLocation () {
         String newLocation = location;
         return newLocation;
@@ -69,6 +82,8 @@ public class lol {
         this.category = newCategory;
 
     }
+
+
     public String getCategory () {
         String newCategory = category;
         return newCategory;
