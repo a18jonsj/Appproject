@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     public ArrayAdapter<lol> loladapter;
 
     @Override
@@ -216,6 +217,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
 
 
 }

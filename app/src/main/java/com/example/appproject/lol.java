@@ -46,8 +46,7 @@ public class lol {
         str += cost;
         str += "\nTyp av DMG: ";
         str += company;
-        str += "\nCitat: ";
-        str += auxdata;
+
 
         return str;
     }
